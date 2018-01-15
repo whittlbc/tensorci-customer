@@ -11,15 +11,18 @@ def train():
     sleep(1)
 
   print('Writing model file...')
+
+  sleep(1)
+
   # Training will produce the model file
   with open(model_path, 'w+') as f:
-    f.write('the good stuff')
+    f.write('I love TensorCI')
 
   print('Done training.')
 
 
 def test():
-  print('Testing!')
+  print('Testing...')
 
 
 def predict(data):
