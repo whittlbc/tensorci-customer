@@ -4,3 +4,4 @@ venv/
 *.env
 *.pem
 dataset.json
+data/model.ckpt
