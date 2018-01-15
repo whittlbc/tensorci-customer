@@ -30,4 +30,5 @@ def predict(data):
 
 
 def reload():
+  print('Reloading model...')
   pass
