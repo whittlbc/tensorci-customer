@@ -26,7 +26,7 @@ def test():
 
 
 def predict(data):
-  return 'my-prediction'
+  return 'my-awesome-prediction'
 
 
 def reload():
