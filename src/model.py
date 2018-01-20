@@ -26,7 +26,7 @@ def test():
 
 
 def predict(data):
-  return 'i-love-tensorci'
+  return 'i-love-TensorCI'
 
 
 def reload():
