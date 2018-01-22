@@ -1,9 +1,12 @@
+import os
 from definitions import model_path
 from time import sleep
 
 
 def train():
   print('Training...')
+
+  print('MAIL_TO_OVERRIDE: {}'.format(os.environ.get('MAIL_TO_OVERRIDE')))
 
   for i in range(20):
     print('Epoch {}...'.format(i))
