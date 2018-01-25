@@ -17,7 +17,7 @@ def train():
 
   # Training will produce the model file
   with open(model_path, 'w+') as f:
-    f.write('I love TensorCI!')
+    f.write('I love TensorCI!!')
 
   print('Done training.')
 
