@@ -10,15 +10,14 @@ def train():
     i += 1
     sleep(1)
 
-  print('Writing model file...')
-
-  sleep(1)
+  print('Done training.')
 
   # Training will produce the model file
   with open(model_path, 'w+') as f:
     f.write('I love TensorCI!!')
 
-  print('Done training.')
+  print('Writing model file...')
+  sleep(1)
 
 
 def test():
