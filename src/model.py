@@ -2,7 +2,6 @@ from definitions import model_path
 from time import sleep
 
 
-
 def train():
   print('Training...')
 
