@@ -5,7 +5,7 @@ from time import sleep
 def train():
   print('Training...')
 
-  for i in range(20):
+  for i in range(25):
     print('Epoch {}...'.format(i))
     i += 1
     sleep(1)
