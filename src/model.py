@@ -18,6 +18,7 @@ def train():
 
   print('Writing model file...')
   sleep(1)
+  
 
 
 def test():
