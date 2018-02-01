@@ -7,12 +7,11 @@ graph = XYScatterPlot(title='Loss vs. Iterations',
                       x_axis='Iterations',
                       y_axis='Loss')
 
-
 def train():
   print('Training...')
 
   print('Graph: {}'.format(graph))
-  
+
   if graph:
     print('Graph DICT: {}'.format(str(graph.__dict__)))
 
