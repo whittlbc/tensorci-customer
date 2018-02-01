@@ -1,5 +1,6 @@
 from definitions import model_path
 from time import sleep
+import os
 from tensorci_client.graphs.xy_scatter_plot import XYScatterPlot
 
 graph = XYScatterPlot(title='Loss vs. Iterations',
@@ -9,6 +10,14 @@ graph = XYScatterPlot(title='Loss vs. Iterations',
 
 def train():
   print('Training...')
+
+  print('Graph: {}'.format(graph))
+  
+  if graph:
+    print('Graph DICT: {}'.format(str(graph.__dict__)))
+
+  print('REDIS_URL: {}'.format(os.environ.get('REDIS_URL')))
+  print('TENSORCI_TRAIN_SECRET: {}'.format(os.environ.get('TENSORCI_TRAIN_SECRET')))
 
   train_series = graph.series(name='Train Series', color='#ff7277')
 
