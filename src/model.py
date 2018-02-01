@@ -1,5 +1,6 @@
 from definitions import model_path
 from time import sleep
+from tensorci_client import
 
 
 def train():

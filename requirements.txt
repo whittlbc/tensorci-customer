@@ -1,1 +1,1 @@
-tensorci_client==0.0.4
+tensorci-client==0.0.6
