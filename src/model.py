@@ -58,12 +58,14 @@ def predict(data):
 
 
 def save_model():
+  print('Writing model file...')
+  sleep(1)
+
   # Training will produce the model file
   with open(model_path, 'w+') as f:
     f.write('I love TensorCI!')
 
-  print('Writing model file...')
-
+  print('Uploading trained model...')
   sleep(1)
 
 
