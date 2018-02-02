@@ -13,6 +13,8 @@ graph = XYScatterPlot(title='Loss vs. Iterations',
 def train():
   print('Training model...')
 
+  print('GRAPH: {}'.format(graph.__dict__))
+
   # Create Train data series for the scatter plot
   train_series = graph.series(name='Train Series', color='#ff7277')
 
