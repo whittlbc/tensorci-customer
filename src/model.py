@@ -17,7 +17,7 @@ def train():
   train_series = graph.series(name='Train Series', color='#ff7277')
 
   for i in range(train_steps):
-    print('Train iteration {}/{}'.format(i + 1, train_steps))
+    print('Iter {}/{}'.format(i + 1, train_steps))
 
     # Find training loss
     loss = compute_train_loss(i)
@@ -40,7 +40,7 @@ def test():
   test_series = graph.series(name='Test Series', color='#35ACC4')
 
   for i in range(test_steps):
-    print('Test iteration {}/{}'.format(i + 1, test_steps))
+    print('Iter {}/{}'.format(i + 1, test_steps))
 
     # Find test loss
     loss = compute_test_loss(i)
@@ -67,7 +67,6 @@ def save_model():
 
   print('Uploading trained model...')
   sleep(1)
-
 
 
 def reload():
