@@ -9,6 +9,7 @@ graph = XYScatterPlot(title='Loss vs. Iterations',
                       x_axis='Iterations',
                       y_axis='Loss')
 
+
 def train():
   print('Training model...')
 
